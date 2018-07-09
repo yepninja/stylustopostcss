@@ -1,0 +1,34 @@
+:root {
+    --list-reset: {
+        margin: 0;
+        padding: 0;
+
+        list-style: none;
+    }
+
+    --block-shadow: {
+        box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+    }
+
+    --paranja: {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+
+        content: '';
+
+        background: rgba(255, 255, 255, 0.5);
+    }
+
+    --place-center: {
+        position: absolute !important;
+        top: 50% !important;
+        left: 50% !important;
+
+        margin: auto !important;
+
+        transform: translate(-50%, -50%) !important;
+    }
+}

@@ -1,0 +1,6 @@
+:root {
+    --zIndexPopup: 100;
+    --zIndexHeader: 2000;
+    --zIndexOverlay: 3000;
+    --zIndexOverlayPopup: 3100;
+}
